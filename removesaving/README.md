@@ -50,19 +50,19 @@ eosio.system.wasm hash: 43d7b343ae17b4ee3d67c165dd9d60337288e152d4e8ea4f59ddeba0
 ## [Compare code changes](https://github.com/meet-one/eosio.contracts/compare/v1.6.0...meet-one:remove-inflation-to-wps?diff=unified)
 
 
-## Review proposal
+### Review proposal
 
 ```
 cleos multisig review eosiomeetone removesaving
 ```
 
-## Proposal Status
+### Proposal Status
 
 ```
 cleos get table eosio.msig eosiomeetone approvals2
 ```
 
-## Approve proposal
+### Approve proposal
 
 ```
 cleos multisig approve eosiomeetone removesaving '{"actor":"eosiomeetone","permission":"active"}' -p eosiomeetone
