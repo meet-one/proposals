@@ -12,7 +12,7 @@ This proposal makes three changes to the EOS system:
 
 3. Stop the transfer of EOS tokens to eosio.saving account
 
-# Build latest eosio
+# Build system contract
 
 ```shell
 git clone https://github.com/meet-one/eosio.contracts.git
@@ -25,7 +25,7 @@ eosio-cpp -contract=eosio.system -abigen src/eosio.system.cpp -o eosio.system.wa
 
 shasum -a 256 eosio.system.wasm
 
-cleos set contract -s -j -d eosio ./ | tail -n +4 > upgrade_system_contract_official_trx.json
+cleos set contract -s -j -d eosio ./ > upgrade_system_contract_official_trx.json
 ```
 
 
