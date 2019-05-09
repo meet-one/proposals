@@ -1,6 +1,6 @@
 # Overview
 
-The `removesaving` proposal remove 4% inflation to eosio.saving.
+The `removesaving` proposal remove 4% inflation to eosio.saving. [Click me to see why reduce inflation from 5% to 1%.](https://medium.com/meet-one/meet-one-has-released-the-4-inflation-removal-eos-code-change-on-github-28e66f796e9b) 
 
 
 # Build latest eosio
