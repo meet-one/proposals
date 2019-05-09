@@ -47,7 +47,7 @@ eosio.cdt 1.5.0
 
 eosio.system.wasm hash: 43d7b343ae17b4ee3d67c165dd9d60337288e152d4e8ea4f59ddeba05535052d
 
-## [Comparing code changes](https://github.com/meet-one/eosio.contracts/compare/v1.6.0...meet-one:remove-inflation-to-wps?diff=unified)
+## [Compare code changes](https://github.com/meet-one/eosio.contracts/compare/v1.6.0...meet-one:remove-inflation-to-wps?diff=unified)
 
 
 ## Review proposal
@@ -67,3 +67,8 @@ cleos get table eosio.msig eosiomeetone approvals2
 ```
 cleos multisig approve eosiomeetone removesaving '{"actor":"eosiomeetone","permission":"active"}' -p eosiomeetone
 ```
+
+
+The `removesaving` proposal on Kylin Testnet.
+
+https://kylin.eosx.io/tx/85848974110eb1fe370afda8b2a991e269649fd4d9f82505104a842888f2684d
