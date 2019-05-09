@@ -17,13 +17,15 @@ This proposal makes three changes to the EOS system:
 ```shell
 git clone https://github.com/meet-one/eosio.contracts.git
 
-cd eosio.contracts/contracts/eosio.system/src
+cd eosio.contracts/contracts/eosio.system
 
 git checkout remove-inflation-to-wps
 
-eosio-cpp -contract=eosio.system -abigen eosio.system.cpp -o eosio.system.wasm -I=/usr/local/include/ -I=../include -I=../../eosio.token/include -I=./
+eosio-cpp -contract=eosio.system -abigen src/eosio.system.cpp -o eosio.system.wasm -I=/usr/local/include/ -I=./include -I=../eosio.token/include -I=./src
 
 shasum -a 256 eosio.system.wasm
+
+cleos set contract -s -j -d eosio ./ | tail -n +4 > upgrade_system_contract_official_trx.json
 ```
 
 
