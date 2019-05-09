@@ -2,9 +2,15 @@
 
 The `removesaving` proposal remove 4% inflation to eosio.saving. [Click me to see why reduce inflation from 5% to 1%.](https://medium.com/meet-one/meet-one-has-released-the-4-inflation-removal-eos-code-change-on-github-28e66f796e9b) 
 
+This proposal makes three changes to the EOS system:
+
+1. Change the system parameter continuous_rate to 0.00995
+
+2. Change the 5% inflation rate to 1%
+
+3. Stop the transfer of EOS tokens to eosio.saving account
 
 # Build latest eosio
-
 
 ```shell
 git clone https://github.com/meet-one/eosio.contracts.git
