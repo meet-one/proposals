@@ -16,6 +16,10 @@ This proposal makes three changes to the EOS system:
 
 The block.one will [add configurable inflation logic](https://github.com/EOSIO/eosio.contracts/issues/246) to system contract in the future.
 
+The `removesaving` proposal on Kylin Testnet.
+
+https://kylin.eosx.io/tx/85848974110eb1fe370afda8b2a991e269649fd4d9f82505104a842888f2684d
+
 ### Review proposal
 
 ```
@@ -33,10 +37,6 @@ cleos get table eosio.msig eosiomeetone approvals2
 ```
 cleos multisig approve eosiomeetone removesaving '{"actor":"eosiomeetone","permission":"active"}' -p eosiomeetone
 ```
-
-The `removesaving` proposal on Kylin Testnet.
-
-https://kylin.eosx.io/tx/85848974110eb1fe370afda8b2a991e269649fd4d9f82505104a842888f2684d
 
 ## [Compare code changes](https://github.com/meet-one/eosio.contracts/compare/v1.6.0...meet-one:remove-inflation-to-wps?diff=unified)
 
