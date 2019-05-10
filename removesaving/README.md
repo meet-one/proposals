@@ -34,6 +34,12 @@ The `removesaving` proposal on Kylin Testnet.
 
 https://kylin.eosx.io/tx/85848974110eb1fe370afda8b2a991e269649fd4d9f82505104a842888f2684d
 
+## Important notes for top 21 BPs
+
+[Add configurable inflation logic](https://github.com/EOSIO/eosio.contracts/issues/246)
+
+The block.one will add configurable inflation logic to system contract in the future.
+
 
 # Build system contract
 
