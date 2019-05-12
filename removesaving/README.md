@@ -18,7 +18,7 @@ The block.one will [add configurable inflation logic](https://github.com/EOSIO/e
 
 The `removesaving` proposal on Kylin Testnet. https://kylin.eosx.io/tx/85848974110eb1fe370afda8b2a991e269649fd4d9f82505104a842888f2684d
 
-The `removesaving` proposal on EOS Mainnet. https://www.eosx.io/tx/cc920e0ac75469ffba8fb870ca59ba35552296b03a9bffe38c490b899c2c0b29
+The `removesaving` proposal on EOS Mainnet. https://www.eosx.io/tx/dd56c361811bcbf6f4a14b74bca40174dab6d0f0cec0ffff3e6061c383bb153d
 
 ### Review proposal
 
